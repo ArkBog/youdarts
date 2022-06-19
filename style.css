@@ -1,0 +1,113 @@
+body
+{
+	font-family: 'Oswald', sans-serif;
+	background-color: black;
+}
+
+#bar
+{
+	background: black;
+	font-size: 48px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+.menuHeight
+{
+	max-height: 100%;
+}
+
+.foot
+{
+	background: black;
+	width: 100%;
+	text-align: center;
+}
+
+.foot a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.foot a:hover
+{
+	color: grey;
+}
+
+.touch
+{
+	overflow: hidden;
+}
+
+.touch img
+{
+	transition: all 0.5s ease-in-out;
+}
+
+.touch:hover img
+{
+	transform: scale(1.2);
+}
+
+.player
+{
+	background-color: #262323;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	border: white solid 1px;
+	min-height: 50vh;
+
+}
+
+.player a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.player:hover
+{
+	background-color: red;
+}
+
+.player:hover a
+{
+	transform: scale(1.1);
+}
+
+.player a
+{
+	transition: all 0.5s ease-in-out;
+}
+
+.score
+{
+	color: white;
+	font-size: 52px;
+	text-align: center;
+}
+
+input [type=button]
+{
+	width: 400px;
+	height: 100px;
+}
+
+.round
+{
+	font-size: 20px;
+	text-align: left;
+}
+
+@media (max-width: 575px)
+{
+	input[type=number]
+	{
+		margin-bottom: 20px;
+	}
+
+}
